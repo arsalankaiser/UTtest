@@ -1,0 +1,141 @@
+/* Reset default browser styles */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,600;9..40,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background image for the body */
+body {
+    background-image: url("Image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    color: #fff;
+    background-color: rgb(93, 82, 120);
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+nav {
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.slide {
+    flex: 0 0 100%; /* Make each slide take up the full width */
+    height: 300px; /* Set the height of your slider */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 32px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: 100px;
+}
+
+.next {
+    right: 100px;
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none
+    
+}
+
+.signup{
+    background-color: #2a19e2;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+
+
+.slider-dots {
+    text-align: center;
+    margin-top: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.slider-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* Style the active slider dot */
+.slider-dot.active {
+    background-color: #333;
+}

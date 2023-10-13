@@ -1,0 +1,97 @@
+/* header1.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,600;9..40,700&display=swap');
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #15143966;
+}
+
+.header button {
+  background-color: #25dac5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #45a049;
+}
+
+.body {
+  padding: 20px;
+  text-align: center;
+}
+
+.body h1 {
+    font-family: DM Sans;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #1E0E62;
+
+    
+
+}
+
+.body p {
+  color: #555;
+  font-weight: 500;
+  size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #15143966;
+
+}
+.btn {
+  width: 300px;
+  height: 60px;
+  border-radius: 100px;
+  border-radius: 100px;
+  border: none;
+  background-color: #25dac5;
+  color: white;
+  margin-bottom: 10px;
+  font-style: DM Sans;
+  font-weight: 500;
+  line-height: 26px;
+  text-align:center;
+}
+.link {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.22499999403953552px;
+  text-align: center;
+  color: #25dac5;
+}

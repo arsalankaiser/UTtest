@@ -1,0 +1,124 @@
+/* header1.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,600;9..40,700&display=swap');
+body {
+  margin: 0;
+  background-color: #2a1893;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font: DM Sansf;
+}
+
+.header h3 {
+  margin: 0;
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: auto;
+}
+
+.header li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header button {
+  background: #482be7;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+}
+
+.body {
+  padding: 20px;
+  text-align: center;
+}
+
+.body h1 {
+  font-family: DM Sans;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: white;
+}
+
+.body p {
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+}
+.btn {
+  width: 300px;
+  height: 60px;
+  border-radius: 100px;
+  border-radius: 100px;
+  border: none;
+  background-color: #25dac5;
+  color: white;
+  margin-bottom: 10px;
+  font-style: DM Sans;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+}
+.link {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.22499999403953552px;
+  text-align: center;
+  color: #25dac5;
+}
+.bt {
+  background-color: #25dac5;
+  color: #fff;
+  width: 120px;
+  height: 60px;
+  top: 567px;
+  left: 820px;
+  border: none;
+  border-radius: 100px;
+}
+input[type="text"] {
+    width: 350px;
+    height: 60px;
+    margin: 10px; 
+    padding-left: inherit;
+    background-color: transparent;
+    border-radius: 100px;
+    border: solid 1px grey;
+  }
+  
+  
+span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: grey;
+ 
+}
